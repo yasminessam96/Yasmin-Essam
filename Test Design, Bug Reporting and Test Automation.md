@@ -43,5 +43,64 @@
 36. Delete a category of expenses/incomes
 
 ## Second Part: Bug Reporting
+#### Bug 1: Lines from categories' icons to center circle are not present in all categories
+###### Steps:
+###### Expected Results:
+###### Actual Results: 
+###### Attachements:
+###### Affected Devices:
+###### Network:
+###### Severity:
+###### Priority:
+###### Impact:
+
+
+#### Bug 2: Side Setting menu opens on its own upon adding an expense and returning to landing page
+###### Steps:
+###### Expected Results:
+###### Actual Results: 
+###### Attachements:
+###### Affected Devices:
+###### Network:
+###### Severity:
+###### Priority:
+###### Impact:
+
+
+#### Bug 3: Percentile area for equal expenses are not equal
+###### Steps:
+###### Expected Results:
+###### Actual Results: 
+###### Attachements:
+###### Affected Devices:
+###### Network:
+###### Severity:
+###### Priority:
+###### Impact:
+
+Reporting
+#### Bug 4: Not all components are translated upon changing language
+###### Steps:
+###### Expected Results:
+###### Actual Results: 
+###### Attachements:
+###### Affected Devices:
+###### Network:
+###### Severity:
+###### Priority:
+###### Impact:
+
+Reporting
+#### Bug 5: Lines from categories' icons to center circle are not present in all categories
+###### Steps:
+###### Expected Results:
+###### Actual Results: 
+###### Attachements:
+###### Affected Devices:
+###### Network:
+###### Severity:
+###### Priority:
+###### Impact:
+
 ## Third Part: Test Automation
 I automated tests for www.duckduckgo.com using selenium. I used javascript and the framework Nightwatch.js.
