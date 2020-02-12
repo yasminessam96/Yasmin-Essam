@@ -43,7 +43,7 @@
 36. Delete a category of expenses/incomes
 
 ## Second Part: Bug Reporting
-
+The app was tested on iOS.
 #### Bug 1: Clicking on 'Budget mode' in settings produces wrong results
 ##### Steps:
 1. Open app
@@ -58,9 +58,8 @@
 ![budget bug image](https://github.com/yasminessam96/Yasmin-Essam/blob/master/budget.jpg)
 ##### Affected Devices: 
 iOS
-##### Network:
 ##### Severity:
-High
+Critical
 ##### Priority:
 High
 ##### Impact:
@@ -80,7 +79,6 @@ Incorrect functionality results in customer dissatisfaction and distrust in the 
 -
 ##### Affected Devices:
 iOS
-##### Network:
 ##### Severity:
 High
 ##### Priority:
@@ -101,7 +99,6 @@ Missing functionalities or buttons that do nothing affect the customers negative
 ![menu randomly opens](https://github.com/yasminessam96/Yasmin-Essam/blob/master/menu_opens_randomly.jpg)
 ##### Affected Devices:
 iOS
-##### Network:
 ##### Severity:
 Low
 ##### Priority:
@@ -124,7 +121,6 @@ Bad user experience and user might become dissatisfied with the app
 ![unequal percentiles image](https://github.com/yasminessam96/Yasmin-Essam/blob/master/unequal.jpg)
 ##### Affected Devices:
 iOS
-##### Network:
 ##### Severity:
 Medium
 ##### Priority:
@@ -170,7 +166,6 @@ Bad user experience. User may become dissatisfied with the application since he/
 ![lines not present](https://github.com/yasminessam96/Yasmin-Essam/blob/master/lines_to_circle.jpg)
 ##### Affected Devices:
 iOS
-##### Network:
 ##### Severity:
 Low
 ##### Priority:
@@ -192,7 +187,6 @@ Bad UI and user experience.
 ![not arranged](https://github.com/yasminessam96/Yasmin-Essam/blob/master/lines_to_circle.jpg)
 ##### Affected Devices:
 iOS
-##### Network:
 ##### Severity:
 Low
 ##### Priority:
@@ -218,7 +212,6 @@ Bad UI and user experience.
 ![zero two](https://github.com/yasminessam96/Yasmin-Essam/blob/master/zero%25_2.jpg)
 ##### Affected Devices:
 iOS
-##### Network:
 ##### Severity:
 High
 ##### Priority:
@@ -236,7 +229,7 @@ Inaccurate data may lead user to distruct the app. Also, bad UI and user experie
 
 ## Third Part: Test Automation
 
-I automated tests for www.duckduckgo.com using selenium on chrome (v80). I used javascript and the framework Nightwatch.js. Test cases are present inside the 'tests' folder. To run in windows, open git bash inside the project folder and use the command "nightwatch tests" to run all tests or "nightwatch tests/testCase1.js" to run testCase1 for example.
+I automated tests for www.duckduckgo.com using selenium with chromedriver to run tests on chrome (v80). I used javascript and the framework Nightwatch.js. Automated scripts are in the AutomatedTask folder and test cases are present inside it in the 'tests' folder. To run in windows, open git bash inside the project folder and use the command "nightwatch tests" to run all tests or "nightwatch tests/testCase1.js" to run testCase1 for example.
 
 ### TestCase 1: Search for a lowercase word by clicking on search button
 Steps | Expected Results/Assertions
