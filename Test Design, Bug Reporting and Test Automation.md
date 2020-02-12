@@ -43,64 +43,182 @@
 36. Delete a category of expenses/incomes
 
 ## Second Part: Bug Reporting
-#### Bug 1: Lines from categories' icons to center circle are not present in all categories
+
+#### Bug 1: Clicking on 'Budget mode' in settings produces wrong results
 ###### Steps:
+1. Open app
+2. Open settings menu
+3. Click on "Budget Mode" and add a budget of e.g $100
+4. Return to landing page and observe the inner circle
 ###### Expected Results:
+1. The app has no expenses or incomes inputted yet so the budget should be the only one visible and should be $100
 ###### Actual Results: 
+1. The app displays $3.33 in blue as budget which is incorrect
 ###### Attachements:
-###### Affected Devices:
+###### Affected Devices: 
+iOS
 ###### Network:
 ###### Severity:
+High
 ###### Priority:
+High
 ###### Impact:
+Incorrect functionality results in customer dissatisfaction and distrust in the application and may lead the customer to not use the app again
 
-
-#### Bug 2: Side Setting menu opens on its own upon adding an expense and returning to landing page
+#### Bug 2: Clicking on 'Future recurring records' in settings produces no change in logic
 ###### Steps:
+1. Open app
+2. Open settings menu
+3. Click on "Future recurring records" 
+4. Return to application and try adding expenses and incomes normally
 ###### Expected Results:
+1. There should be some change in the logic and functionalities since Future recurring records in checked
 ###### Actual Results: 
+1. There is no change in the logic and functionalities since Future recurring records in checked
 ###### Attachements:
 ###### Affected Devices:
+iOS
 ###### Network:
 ###### Severity:
+High
 ###### Priority:
+High
 ###### Impact:
+Missing functionalities or buttons that do nothing affect the customers negatively and may lead them to stop using the application
 
-
-#### Bug 3: Percentile area for equal expenses are not equal
+#### Bug 3: Side Setting menu opens on its own upon adding an expense and returning to landing page
 ###### Steps:
+1. Open app
+2. Click on '-' to add expense
+3. Add the expense and choose category and return to landing page
 ###### Expected Results:
+1. Landing page should be displayed normally without any side menus opened
 ###### Actual Results: 
+1. Settings menu randomly opens upon returning to landing page without clicking on it
 ###### Attachements:
 ###### Affected Devices:
+iOS
 ###### Network:
 ###### Severity:
+Low
 ###### Priority:
+Medium
 ###### Impact:
+Bad user experience and user might become dissatisfied with the app
 
-Reporting
-#### Bug 4: Not all components are translated upon changing language
+
+#### Bug 4: Percentile area for equal expenses are not equal
 ###### Steps:
+1. Open app
+2. Click on '-' to add expense
+3. Add at expenses for all categories with at least 2 categories of equal expenses (e.g sports and food both have equal expenses)
+4. return to landing page and observe
 ###### Expected Results:
+1. Categories with equal expenses and percentages should occupy the same percentile area on the center circle
 ###### Actual Results: 
+1. Categories of equal expenses don't have equal percentile areas
 ###### Attachements:
 ###### Affected Devices:
+iOS
 ###### Network:
 ###### Severity:
+Medium
 ###### Priority:
+Medium
 ###### Impact:
+Bad UI and user experience. User may distrust the accuracy of the application
 
-Reporting
-#### Bug 5: Lines from categories' icons to center circle are not present in all categories
+
+#### Bug 5: Not all components are translated upon changing language
 ###### Steps:
+1. Open app
+2. From right side menu, choose Settings
+3. Click Language to choose to another one (e.g Italian)
+4. Restart the app and observe
 ###### Expected Results:
+1. All app data should be translated to italian with no presence of english
 ###### Actual Results: 
+1. Some data are not translated to Italian and stay in English
+###### Attachements:
+
+###### Affected Devices:
+iOS
+###### Network:
+###### Severity:
+High
+###### Priority:
+High
+###### Impact:
+Bad user experience. User may become dissatisfied with the application since he/she cannot understand data written in English
+
+
+#### Bug 6: Lines from categories' icons to center circle are not present in all categories
+###### Steps:
+1. Open app
+2. Click on '-' button
+3. Add expenses for all categories
+4. Return to landing page and observe
+###### Expected Results:
+1. All categories' icons have lines connecting them to center circle
+###### Actual Results: 
+1. Some categories' icons are not connected to center circle with any lines
 ###### Attachements:
 ###### Affected Devices:
+iOS
 ###### Network:
 ###### Severity:
+Low
 ###### Priority:
+Medium
 ###### Impact:
+Bad UI and user experience.
+
+#### Bug 7: Expenses' categories are not arranged according to percentages
+###### Steps:
+1. Open the app
+2. Click on '-' button 
+3. Repeatedly add expenses until you cover all categories
+4. Return to landing page and observe
+###### Expected Results:
+1. Categories icons should be arranged in ascending order of percentages around the inner circle
+###### Actual Results: 
+1. Categories are random and not arranged
+###### Attachements:
+###### Affected Devices:
+iOS
+###### Network:
+###### Severity:
+Low
+###### Priority:
+Low
+###### Impact:
+Bad UI and user experience.
+
+#### Bug 8: Expenses' categories that are really small are represented as 0%
+###### Steps:
+1. Open the app
+2. Click on '-' button 
+3. Repeatedly add expenses until you cover all categories with at least 4 categories with very low expense (e.g $1 each)
+4. Return to landing page and observe
+###### Expected Results:
+1. Categories are all connected to center circle
+2. All categories have percentages greater than 0%
+###### Actual Results: 
+1. Categories lines are distorted and crossing each other
+2. Not all categories are connected
+3. Some categories have 0% 
+###### Attachements:
+###### Affected Devices:
+iOS
+###### Network:
+###### Severity:
+High
+###### Priority:
+High
+###### Impact:
+Inaccurate data may lead user to distruct the app. Also, bad UI and user experience. 
+
+
 
 ## Third Part: Test Automation
 I automated tests for www.duckduckgo.com using selenium. I used javascript and the framework Nightwatch.js.
