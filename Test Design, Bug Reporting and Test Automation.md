@@ -55,6 +55,7 @@
 ###### Actual Results: 
 1. The app displays $3.33 in blue as budget which is incorrect
 ###### Attachements:
+![budget bug image](https://github.com/yasminessam96/Yasmin-Essam/blob/master/budget.jpg)
 ###### Affected Devices: 
 iOS
 ###### Network:
