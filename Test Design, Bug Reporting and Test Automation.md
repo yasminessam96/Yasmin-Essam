@@ -33,27 +33,27 @@
 28. Click on Account in right side menu and choose cash then press delete
 29. Click on Account in right side menu and choose cash and then disable
 30. Click on Account in right side menu and choose cash and then merge
-27. Click on Account in right side menu and choose payment card to edit and change the settings in that page (currency, icon, dates)
-28. Click on Account in right side menu and choose payment card then press delete
-29. Click on Account in right side menu and choose payment card and then disable
-30. Click on Account in right side menu and choose payment card and then merge
-31. Click on Account in right side menu and add a new account
-32. Click on Account in right side menu and make a new transfer
+31. Click on Account in right side menu and choose payment card to edit and change the settings in that page (currency, icon, dates)
+32. Click on Account in right side menu and choose payment card then press delete
+33. Click on Account in right side menu and choose payment card and then disable
+34. Click on Account in right side menu and choose payment card and then merge
+35. Click on Account in right side menu and add a new account
+36. Click on Account in right side menu and make a new transfer
 
 ### The following are test cases with a medium to low priority:
-33. Click on '+' sign then 'Choose Category' without entering any money
-34. Click on '-' sign then 'Choose Category' without entering any money
-35. Try to input negative number in expenses/incomes
-36. Schedule income
-37. Click on any pro feature and assert navigation to "buy pro version" page
-38. Click on BUY EGP 49.99 to buy pro version and make sure it navigates to App Store for payment
-39. Click on BUY EGP 49.99 to buy pro version and then cancel payment
-40. Click on Restore in 'buy Monefy pro version' page without buying the pro version and observe the error message
-41. Click on review application in settings and assert it navigates to app store
-42. Merge two categories of expenses/incomes
-43. Disable a category of expenses/incomes
-44. Enable a disabled category of expenses/incomes
-45. Delete a category of expenses/incomes
+37. Click on '+' sign then 'Choose Category' without entering any money
+38. Click on '-' sign then 'Choose Category' without entering any money
+39. Try to input negative number in expenses/incomes
+40. Schedule income
+41. Click on any pro feature and assert navigation to "buy pro version" page
+42. Click on BUY EGP 49.99 to buy pro version and make sure it navigates to App Store for payment
+43. Click on BUY EGP 49.99 to buy pro version and then cancel payment
+44. Click on Restore in 'buy Monefy pro version' page without buying the pro version and observe the error message
+45. Click on review application in settings and assert it navigates to app store
+46. Merge two categories of expenses/incomes
+47. Disable a category of expenses/incomes
+48. Enable a disabled category of expenses/incomes
+49. Delete a category of expenses/incomes
 
 ## Second Part: Bug Reporting
 The app was tested on iOS.
