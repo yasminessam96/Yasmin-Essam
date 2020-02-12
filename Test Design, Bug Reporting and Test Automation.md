@@ -227,6 +227,12 @@ High
 Inaccurate data may lead user to distruct the app. Also, bad UI and user experience. 
 
 
+#### UX issues:
+- The categories icons in the app are very confusing. They are always on the landing page no matter if they're selected as expenses or not. I think it would be better to only add the icons of the selected expenses categories only.
+- The idea of matching the categories icons to the center circle does not look good. The lines can get intersected and look very confusing to the user.
+- Clicking on the inner white center circle where the total income/expenses are recorded is not clickable. To navigate to the details screen of expenses/income, you have to click on the outer circle which I think is not really user friendly. I think the entire center circle (both inner and outer) should be clickable and navigate to the details screen.
+
+
 
 ## Third Part: Test Automation
 I automated tests for www.duckduckgo.com using selenium. I used javascript and the framework Nightwatch.js. Test cases are present inside the 'tests' folder. To run in windows, open git bash inside the project folder and use the command "nightwatch tests" to run all tests or "nightwatch tests/testCase1.js" to run testCase1 for example.
