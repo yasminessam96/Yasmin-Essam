@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="testCase10"
+    errors="0" failures="0" hostname="" id="" package="testCase10" skipped="0"
+    tests="1" time="5.667" timestamp="">
+  
+    <testcase name="Search for specific url" classname="testCase10" time="5.667" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

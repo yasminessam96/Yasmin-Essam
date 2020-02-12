@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="testCase9"
+    errors="0" failures="0" hostname="" id="" package="testCase9" skipped="0"
+    tests="1" time="5.204" timestamp="">
+  
+    <testcase name="Search for an word that doesn&#39;t exist" classname="testCase9" time="5.204" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

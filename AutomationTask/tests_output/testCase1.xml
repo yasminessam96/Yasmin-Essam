@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="testCase1"
+    errors="1" failures="0" hostname="" id="" package="testCase1" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+      [0;31m  Error: An error occurred while retrieving a new session: &#34;read ECONNRESET&#34;[0m
+[0;90m       at Socket.socketErrorListener (_http_client.js:406:9)
+       at emitErrorNT (internal/streams/destroy.js:91:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+       at processTicksAndRejections (internal/process/task_queues.js:77:11)[0m
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Search for a lowercase word by clicking on search button" classname="testCase1">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
