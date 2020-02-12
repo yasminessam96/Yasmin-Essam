@@ -53,7 +53,7 @@
 ###### Expected Results:
 1. The app has no expenses or incomes inputted yet so the budget should be the only one visible and should be $100
 ###### Actual Results: 
-1. The app displays $3.33 in blue as budget which is incorrect
+1. The app displays $3.33 in blue as budget which is incorrect (see attached image)
 ###### Attachements:
 ![budget bug image](https://github.com/yasminessam96/Yasmin-Essam/blob/master/budget.jpg)
 ###### Affected Devices: 
@@ -77,6 +77,7 @@ Incorrect functionality results in customer dissatisfaction and distrust in the 
 ###### Actual Results: 
 1. There is no change in the logic and functionalities since Future recurring records in checked
 ###### Attachements:
+-
 ###### Affected Devices:
 iOS
 ###### Network:
@@ -97,6 +98,7 @@ Missing functionalities or buttons that do nothing affect the customers negative
 ###### Actual Results: 
 1. Settings menu randomly opens upon returning to landing page without clicking on it
 ###### Attachements:
+![menu randomly opens](https://github.com/yasminessam96/Yasmin-Essam/blob/master/menu_opens_randomly.jpg)
 ###### Affected Devices:
 iOS
 ###### Network:
@@ -119,6 +121,7 @@ Bad user experience and user might become dissatisfied with the app
 ###### Actual Results: 
 1. Categories of equal expenses don't have equal percentile areas
 ###### Attachements:
+![unequal percentiles image](https://github.com/yasminessam96/Yasmin-Essam/blob/master/unequal.jpg)
 ###### Affected Devices:
 iOS
 ###### Network:
@@ -141,7 +144,7 @@ Bad UI and user experience. User may distrust the accuracy of the application
 ###### Actual Results: 
 1. Some data are not translated to Italian and stay in English
 ###### Attachements:
-
+![incorrect translation](https://github.com/yasminessam96/Yasmin-Essam/blob/master/Inkedtranslation_1_LI.jpg)
 ###### Affected Devices:
 iOS
 ###### Network:
@@ -164,6 +167,7 @@ Bad user experience. User may become dissatisfied with the application since he/
 ###### Actual Results: 
 1. Some categories' icons are not connected to center circle with any lines
 ###### Attachements:
+![lines not present](https://github.com/yasminessam96/Yasmin-Essam/blob/master/lines_to_circle.jpg)
 ###### Affected Devices:
 iOS
 ###### Network:
@@ -185,6 +189,7 @@ Bad UI and user experience.
 ###### Actual Results: 
 1. Categories are random and not arranged
 ###### Attachements:
+![not arranged](https://github.com/yasminessam96/Yasmin-Essam/blob/master/lines_to_circle.jpg)
 ###### Affected Devices:
 iOS
 ###### Network:
@@ -209,6 +214,8 @@ Bad UI and user experience.
 2. Not all categories are connected
 3. Some categories have 0% 
 ###### Attachements:
+![zero one](https://github.com/yasminessam96/Yasmin-Essam/blob/master/zero%25.jpg)
+![zero two](https://github.com/yasminessam96/Yasmin-Essam/blob/master/zero%25_2.jpg)
 ###### Affected Devices:
 iOS
 ###### Network:
