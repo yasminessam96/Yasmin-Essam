@@ -294,6 +294,12 @@ Steps | Expected Results/Assertions
 2. Search for word 'instabug' and press Enter | Assert search box contains the word
 3. click on x to clear input field | Assert search term is removed from search box and it's empty
 
+### TestCase 13: Click on any link to view content
+Steps | Expected Results/Assertions
+1. Open duckduckgo.com | Assert page loaded
+2. Search for word 'instabug' and press Enter | Assert a list of results is displayed
+3. Click on first link | Assert we navigate to another page that contains the word 'instabug' in content
+
 
 
 
