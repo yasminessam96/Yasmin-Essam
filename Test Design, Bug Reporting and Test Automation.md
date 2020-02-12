@@ -1,4 +1,4 @@
-# Yasmin-Essam
+# Yasmin-Essam - QC Task
 ## First Part: Test Design
 - I used the iOS version of the app 'Monefy'
 - I prioritized the test cases based on the feature impact. The higher the usage of that feature is or the more important it is to the usage of the application, the higher the priority of its test cases. 
@@ -41,3 +41,7 @@
 34. Disable a category of expenses/incomes
 35. Enable a disabled category of expenses/incomes
 36. Delete a category of expenses/incomes
+
+## Second Part: Bug Reporting
+## Third Part: Test Automation
+I automated tests for www.duckduckgo.com using selenium. I used javascript and the framework Nightwatch.js.
