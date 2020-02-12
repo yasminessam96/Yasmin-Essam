@@ -235,7 +235,8 @@ Inaccurate data may lead user to distruct the app. Also, bad UI and user experie
 
 
 ## Third Part: Test Automation
-I automated tests for www.duckduckgo.com using selenium. I used javascript and the framework Nightwatch.js. Test cases are present inside the 'tests' folder. To run in windows, open git bash inside the project folder and use the command "nightwatch tests" to run all tests or "nightwatch tests/testCase1.js" to run testCase1 for example.
+
+I automated tests for www.duckduckgo.com using selenium on chrome (v80). I used javascript and the framework Nightwatch.js. Test cases are present inside the 'tests' folder. To run in windows, open git bash inside the project folder and use the command "nightwatch tests" to run all tests or "nightwatch tests/testCase1.js" to run testCase1 for example.
 
 ### TestCase 1: Search for a lowercase word by clicking on search button
 Steps | Expected Results/Assertions
@@ -306,6 +307,25 @@ Steps | Expected Results/Assertions
 2. Search for word 'instabug' and press Enter | Assert a list of results is displayed
 3. Click on first link | Assert we navigate to another page that contains the word 'instabug' in content
 
+### TestCase 14: Search for a non english word
+Steps | Expected Results/Assertions
+1. Open duckduckgo.com | Assert page loaded
+2. Search for word "محمد صلاح" and press Enter | Assert number of results are 10; Assert each link contains the word "محمد صلاح" 
 
+#### Other test cases that are not automated:
 
+### TestCase 15: Check the color of previously visited links
+Steps | Expected Results/Assertions
+1. Open duckduckgo.com | Assert page loaded
+2. Search for word "instabug" and press Enter | Assert the first link color is blue
+3. Click on the first link, wait for page to load then press back in your browser | Assert link color is now purple
+
+### TestCase 16: Check images, news, maps and videos section after search
+Steps | Expected Results/Assertions
+1. Open duckduckgo.com | Assert page loaded
+2. Search for word "instabug" and press Enter | Assert the first link color is blue
+3. Click on images | Assert images are related to 'instabug'
+4. Click on videos | Assert videos are related to 'instabug'
+5. Click on news | Assert news are related to 'instabug'
+6. Click on maps | Assert it shows instabug's location
 
